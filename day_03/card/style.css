@@ -1,0 +1,56 @@
+/*Reset 1 số thuộc tính về trạng thái ban đầu*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Roboto";
+}
+
+img {
+    max-width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.card {
+    width: 350px;
+    margin: auto;
+    margin-top: 100px;
+
+    box-shadow: 0 2px 4px rgb(red, green, blue);
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.content {
+    padding: 20px;
+}
+
+.title {
+    color: #464646;
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.description {
+    color: #757575;
+    font-size: 14px;
+    margin-bottom: 16px;
+    font-weight: 100;
+}
+
+.rating {
+    color: #757575;
+    font-size:;
+    margin-bottom:;
+    font-weight::
+}
+
+.rating span {
+    color: #ffd600;
+}
