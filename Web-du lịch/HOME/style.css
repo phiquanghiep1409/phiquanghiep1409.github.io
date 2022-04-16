@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #1a2b48;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+a {
+    text-decoration: none;
+    color: #1a2b48;
+}
+img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    
+}
+.header-inner {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+#header {
+    background-color: #FEF9F7;
+    min-height: 60px;
+}
+.logo {
+    padding-left: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+.logo, .menu {
+    flex: 0 0 50%;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+.menu-item {
+    display: inline-block;
+    padding: 6px 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.banana {
+    height: 457px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.banana-learn {
+    font-size: 30px;
+    color: #fff;
+}
+
+.grape {
+    display: flex;
+    justify-content: space-between;
+}
+#grape {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.grape-item {
+    width: 270px;
+    overflow: hidden;
+}
+#grape h3 {
+    font-size: 36px;
+    font-weight: 600;;
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 20px;
+}
+.grape-name {
+    text-align: center;
+    margin: 24px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.grape-item img {
+    border-radius: 25px;
+}
+
+
+#label h3 {
+    font-size: 36px;
+    font-weight: 600;;
+    margin-bottom: 30px;
+    margin: 20px;
+}
+.label-content {
+    padding: 20px 16px;
+}
+#label {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.label-description {
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(18, 58, 50, 0.5);
+    padding: 0px 16px;
+    margin: 0px;
+}
+.label-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 0 0px 12px 0px;
+    padding: 0px 16px;
+}
+.label-item {
+    width: 353px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+.label {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.text-center {
+    text-align: center;
+}
+
+#footer {
+    background-color: #FEF9F7;
+    text-align: center;
+    padding: 30px 0;
+}
+.flower-fruit {
+    font-weight: 700;
+    color: green;
+}
+.table {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.hotel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#hotel {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#hotel h3 {
+    font-size: 36px;
+    font-weight: 600;;
+    margin-bottom: 30px;
+    margin: 20px;
+}
+.hotel-content {
+    padding: 20px 16px;
+}
+.hotel-item {
+    width: 270px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.hotel-content {
+    padding: 20px 16px;
+}
+.hotel-table {
+    font-size: 16px;
+    color: #1A2B50;
+    font-weight: 900;
+}
+.hotel-label {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #5E6D77;
+}
+.hotel-name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.hotel-grabe {
+    font-size: 14px;
+    color: #5191FA;
+    margin-right: 10px;
+}
+
+
+#rentar {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.rentar-item {
+    width: 270px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+#rentar h3 {
+    font-size: 36px;
+    font-weight: 600;;
+    margin-bottom: 30px;
+    margin: 20px;
+}
+.rentar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.rentar-content {
+    padding: 20px 16px;
+}
+.rentar-table {
+    font-size: 16px;
+    color: #1A2B50;
+    font-weight: 900;
+}
+.rentar-name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.rentar-grabe {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.rentar-label {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #5E6D77;
+}
